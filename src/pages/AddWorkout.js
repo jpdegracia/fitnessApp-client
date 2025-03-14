@@ -22,7 +22,7 @@ export default function AddWorkout() {
     setError(null);
 
     try {
-      const response = await fetch("https://fitnessapp-api-ln8u.onrender.com/workouts/addWorkout", {
+      const response = await fetch(`https://fitnessapp-api-ln8u.onrender.com/workouts/addWorkout`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -28,7 +28,7 @@ export default function Register() {
     function registerUser(e) {
         e.preventDefault();
 
-        fetch(`https://fitnessapp-api-ln8u.onrender.com/register`, {
+        fetch(`https://fitnessapp-api-ln8u.onrender.com/users/register`, {
             method: 'POST',
             headers: {
                 "Content-Type": "application/json"
