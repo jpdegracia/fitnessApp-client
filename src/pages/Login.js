@@ -55,7 +55,7 @@ export default function Login() {
 	        	    title: "Login Successful",
 	        	    icon: "success",
 	        	    iconColor: "#FF99CC",
-	        	    text: "Welcome to The Fitness Hub!",
+	        	    text: "Welcome to Workout Hub!",
 	        	    showConfirmButton: false,
   					timer: 1500
 	        	});
